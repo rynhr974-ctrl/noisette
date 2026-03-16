@@ -3,45 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=12">
     <title>Boulangerie Gourmet - Noisette</title>
 </head>
 <body>
+    <div id="loader"><div class="loader-content"><img src="logo.jpg" class="loader-logo"><div class="loader-bar"></div></div></div>
     <div class="header">
+        <a href="index.html" class="btn-back">← RETOUR</a>
         <h1>Boulangerie Gourmet</h1>
-        <a href="index.html" class="btn-back">← RETOUR AU MENU</a>
     </div>
-
     <div class="container">
-        <div class="card">
-            <img src="Croissant Pur Beurre.webp" alt="Golden brown croissant resting on a white plate in a cozy bakery setting, surrounded by warm lighting and rustic decor, evoking a welcoming and appetizing atmosphere">
-            <div class="card-info">
-                <h3>Croissant Pur Beurre</h3>
-                <p>Feuilletage artisanal croustillant au beurre de qualité.</p>
-                <span class="price">1.800 DT</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="croissant-.webp" alt="Choco">
-            <div class="card-info">
-                <h3>Croissant Chocolat Chips</h3>
-                <p>Fourré crème chocolat et parsemé de pépites gourmandes.</p>
-                <span class="price">2.800 DT</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="Croissant aux Amandes.webp" alt="Amande">
-            <div class="card-info">
-                <h3>Croissant aux Amandes</h3>
-                <p>Garni d'une crème d'amande onctueuse et amandes effilées.</p>
-                <span class="price">3.500 DT</span>
-            </div>
-        </div>
+        <div class="card"><img src="Croissant Pur Beurre.webp"><div class="card-info"><h3>Croissant Pur Beurre</h3><p>Feuilletage artisanal croustillant.</p><span class="price">1.800 DT</span></div></div>
+        <div class="card"><img src="croissant-.webp"><div class="card-info"><h3>Croissant Chocolat Chips</h3><p>Fourré crème chocolat.</p><span class="price">2.800 DT</span></div></div>
     </div>
-
-    <div class="footer-brand">NOISETTE BOULANGERIE GOURMET</div>
+    <a href="https://wa.me/21690360051" class="whatsapp-btn" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"></a>
+    <script>window.addEventListener("load", () => { setTimeout(() => document.getElementById("loader").classList.add("loader-hidden"), 800); });</script>
 </body>
-
 </html>
