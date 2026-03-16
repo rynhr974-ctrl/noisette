@@ -1,9 +1,12 @@
-const CACHE_NAME = 'noisette-v2';
+const CACHE_NAME = 'noisette-v10';
 const assets = [
   './',
   './index.html',
-  './style.css', // thabet f esm el css mte3ek
-  './noissette-logo.jpg'   // zid hna ay image t7ebha tetkhabba offline
+  './style.css',
+  './logo.jpg',
+  './fruit.webp',
+  './croissant-.webp',
+  './varrines.webp'
 ];
 
 self.addEventListener('install', e => {
