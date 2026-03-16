@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl"> <head>
+<html lang="ar" dir="rtl">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>نوازيت - منيو ديجيتال</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style.css?v=11">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="apple-touch-icon" href="logo.jpg">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json?v=11">
 </head>
 <body>
+    <div id="loader"><div class="loader-content"><img src="logo.jpg" class="loader-logo"><div class="loader-bar"></div></div></div>
     <a href="index.html" class="lang-switch">Français</a>
-
     <div class="header">
         <img src="logo.jpg" alt="نوازيت" class="logo">
         <h1>حلويات نوازيت</h1>
     </div>
-
     <div class="container">
         <a href="patisserie.html" class="card">
             <img src="fruit.webp" alt="Pâtisserie">   
@@ -26,7 +23,6 @@
                 <p>اكتشفوا ابتكاراتنا الخاصة والحلويات الاستثنائية.</p>
             </div>
         </a>
-
         <a href="croissants.html" class="card">
             <img src="croissant-.webp" alt="Viennoiserie">     
             <div class="card-info">
@@ -34,7 +30,6 @@
                 <p>قرمشة الزبدة الطازجة في مخبوزاتنا الحرفية.</p>
             </div>
         </a>
-
         <a href="verrine.html" class="card">
             <img src="varrines.webp" alt="Desserts">      
             <div class="card-info">
@@ -43,13 +38,12 @@
             </div>
         </a>
     </div>
-
     <div class="footer-brand">DIGITAL EXPERIENCE BY RAYEN HRIGA</div>
-
+    <a href="https://wa.me/21690360051" class="whatsapp-btn" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
     <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js');
-      }
+        window.addEventListener("load", () => { setTimeout(() => document.getElementById("loader").classList.add("loader-hidden"), 800); });
     </script>
 </body>
 </html>
