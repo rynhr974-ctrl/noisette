@@ -3,53 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css?v=12">
     <title>Pâtisserie Fine - Noisette</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="loader"><div class="loader-content"><img src="logo.jpg" class="loader-logo"><div class="loader-bar"></div></div></div>
     <div class="header">
         <a href="index.html" class="btn-back">← RETOUR</a>
         <h1>Pâtisserie Fine</h1>
     </div>
-
     <div class="container">
         <div class="product-grid">
-            
             <div class="product-card">
-                <img src="fruit.webp" alt="Pâtisserie">
-                <div class="product-info">
-                    <h4>Trompe l'œil Citron</h4>
-                    <span class="price">12.500 DT</span>
-                </div>
+                <img src="fruit.webp">
+                <div class="product-info"><h4>Trompe l'œil Citron</h4><span class="price">12.500 DT</span></div>
             </div>
-
             <div class="product-card">
-                <img src="fruit.webp" alt="Pâtisserie">
-                <div class="product-info">
-                    <h4>Fraisier Noisette</h4>
-                    <span class="price">9.800 DT</span>
-                </div>
+                <img src="fruit.webp">
+                <div class="product-info"><h4>Fraisier Noisette</h4><span class="price">9.800 DT</span></div>
             </div>
-
             <div class="product-card">
-                <img src="fruit.webp" alt="Pâtisserie">
-                <div class="product-info">
-                    <h4>Dôme Chocolat Gold</h4>
-                    <span class="price">11.000 DT</span>
-                </div>
+                <img src="fruit.webp">
+                <div class="product-info"><h4>Dôme Chocolat Gold</h4><span class="price">11.000 DT</span></div>
             </div>
-
             <div class="product-card">
-                <img src="fruit.webp" alt="Pâtisserie">
-                <div class="product-info">
-                    <h4>Mousse Pistache</h4>
-                    <span class="price">10.500 DT</span>
-                </div>
+                <img src="fruit.webp">
+                <div class="product-info"><h4>Mousse Pistache</h4><span class="price">10.500 DT</span></div>
             </div>
-
         </div>
     </div>
-
-    <div class="footer-brand">DIGITAL EXPERIENCE BY RAYEN HRIGA</div>
+    <a href="https://wa.me/21690360051" class="whatsapp-btn" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+    </a>
+    <script>window.addEventListener("load", () => { setTimeout(() => document.getElementById("loader").classList.add("loader-hidden"), 800); });</script>
 </body>
 </html>
