@@ -3,45 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=12">
     <title>Verrines & Desserts - Noisette</title>
 </head>
 <body>
+    <div id="loader"><div class="loader-content"><img src="logo.jpg" class="loader-logo"><div class="loader-bar"></div></div></div>
     <div class="header">
+        <a href="index.html" class="btn-back">← RETOUR</a>
         <h1>Verrines & Desserts</h1>
-        <a href="index.html" class="btn-back">← RETOUR AU MENU</a>
     </div>
-
     <div class="container">
-        <div class="card">
-            <img src="varrines .webp" alt="Pistache">      
-            <div class="card-info">
-                <h3>Verrine Pistache Royale</h3>
-                <p>Crème onctueuse à la pistache grillée et éclats de noisettes.</p>
-                <span class="price">7.500 DT</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="varrines .webp" alt="Choco">        
-            <div class="card-info">
-                <h3>Verrine Choco-Noisette</h3>
-                <p>Mousse chocolat noir 70% et praliné maison croustillant.</p>
-                <span class="price">6.800 DT</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="varrines.webp" alt="Cans Noisette">      
-            <div class="card-info">
-                <h3>Signature Noisette "Cans"</h3>
-                <p>Nos desserts iconiques servis dans nos coffrets canettes.</p>
-                <span class="price">8.500 DT</span>
-            </div>
-        </div>
+        <div class="card"><img src="varrines.webp"><div class="card-info"><h3>Verrine Pistache Royale</h3><span class="price">7.500 DT</span></div></div>
+        <div class="card"><img src="varrines.webp"><div class="card-info"><h3>Signature Noisette "Cans"</h3><span class="price">8.500 DT</span></div></div>
     </div>
-
-    <div class="footer-brand">NOISETTE DESSERTS EXPERIENCE</div>
+    <a href="https://wa.me/21690360051" class="whatsapp-btn" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"></a>
+    <script>window.addEventListener("load", () => { setTimeout(() => document.getElementById("loader").classList.add("loader-hidden"), 800); });</script>
 </body>
-
 </html>
