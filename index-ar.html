@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>نوازيت - منيو ديجيتال</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="logo.jpg">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <a href="index.html" class="lang-switch">Français</a>
+
+    <div class="header">
+        <img src="logo.jpg" alt="نوازيت" class="logo">
+        <h1>حلويات نوازيت</h1>
+    </div>
+
+    <div class="container">
+        <a href="patisserie.html" class="card">
+            <img src="fruit.webp" alt="Pâtisserie">   
+            <div class="card-info">
+                <h3>✨ حلويات فاخرة</h3>
+                <p>اكتشفوا ابتكاراتنا الخاصة والحلويات الاستثنائية.</p>
+            </div>
+        </a>
+
+        <a href="croissants.html" class="card">
+            <img src="croissant-.webp" alt="Viennoiserie">     
+            <div class="card-info">
+                <h3>🥐 مخبوزات قورميه</h3>
+                <p>قرمشة الزبدة الطازجة في مخبوزاتنا الحرفية.</p>
+            </div>
+        </a>
+
+        <a href="verrine.html" class="card">
+            <img src="varrines.webp" alt="Desserts">      
+            <div class="card-info">
+                <h3>🧁 تحليات عصرية</h3>
+                <p>تحلياتنا الشهيرة مقدمة بلمسة عصرية ومبتكرة.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="footer-brand">DIGITAL EXPERIENCE BY RAYEN HRIGA</div>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+      }
+    </script>
+</body>
+</html>
